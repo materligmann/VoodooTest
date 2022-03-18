@@ -9,21 +9,54 @@
 /* Begin PBXBuildFile section */
 		5F25165527E4AEDD00D9796B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25165427E4AEDD00D9796B /* AppDelegate.swift */; };
 		5F25165727E4AEDD00D9796B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25165627E4AEDD00D9796B /* SceneDelegate.swift */; };
-		5F25165927E4AEDD00D9796B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25165827E4AEDD00D9796B /* ViewController.swift */; };
-		5F25165C27E4AEDD00D9796B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F25165A27E4AEDD00D9796B /* Main.storyboard */; };
+		5F25165927E4AEDD00D9796B /* TheGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25165827E4AEDD00D9796B /* TheGameViewController.swift */; };
 		5F25165E27E4AEE000D9796B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F25165D27E4AEE000D9796B /* Assets.xcassets */; };
 		5F25166127E4AEE000D9796B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F25165F27E4AEE000D9796B /* LaunchScreen.storyboard */; };
+		5F25166927E4B18200D9796B /* CustomActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25166827E4B18200D9796B /* CustomActivityViewController.swift */; };
+		5F25166C27E4B1E200D9796B /* TheGameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25166B27E4B1E200D9796B /* TheGameRouter.swift */; };
+		5F25166F27E4B2A700D9796B /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25166E27E4B2A700D9796B /* WalletViewController.swift */; };
+		5F25167127E4B48600D9796B /* WalletInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25167027E4B48600D9796B /* WalletInteractor.swift */; };
+		5F25167327E4B55300D9796B /* WalletWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25167227E4B55300D9796B /* WalletWorker.swift */; };
+		5F25167627E4B58C00D9796B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25167527E4B58C00D9796B /* Item.swift */; };
+		5F25167827E4B67C00D9796B /* WalletPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25167727E4B67C00D9796B /* WalletPresenter.swift */; };
+		5F25167A27E4B6C400D9796B /* WalletModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25167927E4B6C400D9796B /* WalletModels.swift */; };
+		5F25167C27E4B80300D9796B /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25167B27E4B80300D9796B /* ItemTableViewCell.swift */; };
+		5F25167F27E4BE5C00D9796B /* Web3 in Frameworks */ = {isa = PBXBuildFile; productRef = 5F25167E27E4BE5C00D9796B /* Web3 */; };
+		5F25168127E4BE5C00D9796B /* Web3ContractABI in Frameworks */ = {isa = PBXBuildFile; productRef = 5F25168027E4BE5C00D9796B /* Web3ContractABI */; };
+		5F25168327E4BE5C00D9796B /* Web3PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5F25168227E4BE5C00D9796B /* Web3PromiseKit */; };
+		5F25168627E4CC9400D9796B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25168527E4CC9400D9796B /* SettingsViewController.swift */; };
+		5F25168827E4CD8600D9796B /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25168727E4CD8600D9796B /* SettingsInteractor.swift */; };
+		5F25168A27E4CDAE00D9796B /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25168927E4CDAE00D9796B /* SettingsPresenter.swift */; };
+		5F25168C27E4CF9A00D9796B /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25168B27E4CF9A00D9796B /* SettingsCell.swift */; };
+		5F25168E27E4D17800D9796B /* SettingsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25168D27E4D17800D9796B /* SettingsWorker.swift */; };
+		5F25169027E4D2FB00D9796B /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25168F27E4D2FB00D9796B /* SettingsModels.swift */; };
+		5F25169227E4D71900D9796B /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25169127E4D71900D9796B /* Persistance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F25165127E4AEDD00D9796B /* VoodooTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoodooTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F25165427E4AEDD00D9796B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F25165627E4AEDD00D9796B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F25165827E4AEDD00D9796B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F25165B27E4AEDD00D9796B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F25165827E4AEDD00D9796B /* TheGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGameViewController.swift; sourceTree = "<group>"; };
 		5F25165D27E4AEE000D9796B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F25166027E4AEE000D9796B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F25166227E4AEE000D9796B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F25166827E4B18200D9796B /* CustomActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityViewController.swift; sourceTree = "<group>"; };
+		5F25166B27E4B1E200D9796B /* TheGameRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGameRouter.swift; sourceTree = "<group>"; };
+		5F25166E27E4B2A700D9796B /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		5F25167027E4B48600D9796B /* WalletInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletInteractor.swift; sourceTree = "<group>"; };
+		5F25167227E4B55300D9796B /* WalletWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletWorker.swift; sourceTree = "<group>"; };
+		5F25167527E4B58C00D9796B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5F25167727E4B67C00D9796B /* WalletPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletPresenter.swift; sourceTree = "<group>"; };
+		5F25167927E4B6C400D9796B /* WalletModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletModels.swift; sourceTree = "<group>"; };
+		5F25167B27E4B80300D9796B /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		5F25168527E4CC9400D9796B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5F25168727E4CD8600D9796B /* SettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		5F25168927E4CDAE00D9796B /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		5F25168B27E4CF9A00D9796B /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		5F25168D27E4D17800D9796B /* SettingsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWorker.swift; sourceTree = "<group>"; };
+		5F25168F27E4D2FB00D9796B /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
+		5F25169127E4D71900D9796B /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F25168127E4BE5C00D9796B /* Web3ContractABI in Frameworks */,
+				5F25168327E4BE5C00D9796B /* Web3PromiseKit in Frameworks */,
+				5F25167F27E4BE5C00D9796B /* Web3 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +92,62 @@
 		5F25165327E4AEDD00D9796B /* VoodooTest */ = {
 			isa = PBXGroup;
 			children = (
+				5F25168427E4CC7400D9796B /* Settings */,
+				5F25167427E4B57200D9796B /* Models */,
+				5F25166D27E4B27100D9796B /* Wallet */,
+				5F25166A27E4B1B500D9796B /* TheGame */,
 				5F25165427E4AEDD00D9796B /* AppDelegate.swift */,
 				5F25165627E4AEDD00D9796B /* SceneDelegate.swift */,
-				5F25165827E4AEDD00D9796B /* ViewController.swift */,
-				5F25165A27E4AEDD00D9796B /* Main.storyboard */,
+				5F25166827E4B18200D9796B /* CustomActivityViewController.swift */,
 				5F25165D27E4AEE000D9796B /* Assets.xcassets */,
 				5F25165F27E4AEE000D9796B /* LaunchScreen.storyboard */,
 				5F25166227E4AEE000D9796B /* Info.plist */,
 			);
 			path = VoodooTest;
+			sourceTree = "<group>";
+		};
+		5F25166A27E4B1B500D9796B /* TheGame */ = {
+			isa = PBXGroup;
+			children = (
+				5F25165827E4AEDD00D9796B /* TheGameViewController.swift */,
+				5F25166B27E4B1E200D9796B /* TheGameRouter.swift */,
+			);
+			path = TheGame;
+			sourceTree = "<group>";
+		};
+		5F25166D27E4B27100D9796B /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				5F25167B27E4B80300D9796B /* ItemTableViewCell.swift */,
+				5F25166E27E4B2A700D9796B /* WalletViewController.swift */,
+				5F25167027E4B48600D9796B /* WalletInteractor.swift */,
+				5F25167227E4B55300D9796B /* WalletWorker.swift */,
+				5F25167727E4B67C00D9796B /* WalletPresenter.swift */,
+				5F25167927E4B6C400D9796B /* WalletModels.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		5F25167427E4B57200D9796B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F25167527E4B58C00D9796B /* Item.swift */,
+				5F25169127E4D71900D9796B /* Persistance.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5F25168427E4CC7400D9796B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5F25168527E4CC9400D9796B /* SettingsViewController.swift */,
+				5F25168727E4CD8600D9796B /* SettingsInteractor.swift */,
+				5F25168927E4CDAE00D9796B /* SettingsPresenter.swift */,
+				5F25168B27E4CF9A00D9796B /* SettingsCell.swift */,
+				5F25168D27E4D17800D9796B /* SettingsWorker.swift */,
+				5F25168F27E4D2FB00D9796B /* SettingsModels.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +166,11 @@
 			dependencies = (
 			);
 			name = VoodooTest;
+			packageProductDependencies = (
+				5F25167E27E4BE5C00D9796B /* Web3 */,
+				5F25168027E4BE5C00D9796B /* Web3ContractABI */,
+				5F25168227E4BE5C00D9796B /* Web3PromiseKit */,
+			);
 			productName = VoodooTest;
 			productReference = 5F25165127E4AEDD00D9796B /* VoodooTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,9 @@
 				Base,
 			);
 			mainGroup = 5F25164827E4AEDD00D9796B;
+			packageReferences = (
+				5F25167D27E4BE5C00D9796B /* XCRemoteSwiftPackageReference "Web3.swift" */,
+			);
 			productRefGroup = 5F25165227E4AEDD00D9796B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +218,6 @@
 			files = (
 				5F25166127E4AEE000D9796B /* LaunchScreen.storyboard in Resources */,
 				5F25165E27E4AEE000D9796B /* Assets.xcassets in Resources */,
-				5F25165C27E4AEDD00D9796B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +228,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F25165927E4AEDD00D9796B /* ViewController.swift in Sources */,
+				5F25168E27E4D17800D9796B /* SettingsWorker.swift in Sources */,
+				5F25167A27E4B6C400D9796B /* WalletModels.swift in Sources */,
+				5F25167327E4B55300D9796B /* WalletWorker.swift in Sources */,
+				5F25167627E4B58C00D9796B /* Item.swift in Sources */,
+				5F25168827E4CD8600D9796B /* SettingsInteractor.swift in Sources */,
+				5F25167127E4B48600D9796B /* WalletInteractor.swift in Sources */,
+				5F25167827E4B67C00D9796B /* WalletPresenter.swift in Sources */,
+				5F25165927E4AEDD00D9796B /* TheGameViewController.swift in Sources */,
 				5F25165527E4AEDD00D9796B /* AppDelegate.swift in Sources */,
+				5F25166C27E4B1E200D9796B /* TheGameRouter.swift in Sources */,
 				5F25165727E4AEDD00D9796B /* SceneDelegate.swift in Sources */,
+				5F25166927E4B18200D9796B /* CustomActivityViewController.swift in Sources */,
+				5F25168627E4CC9400D9796B /* SettingsViewController.swift in Sources */,
+				5F25167C27E4B80300D9796B /* ItemTableViewCell.swift in Sources */,
+				5F25166F27E4B2A700D9796B /* WalletViewController.swift in Sources */,
+				5F25168C27E4CF9A00D9796B /* SettingsCell.swift in Sources */,
+				5F25169227E4D71900D9796B /* Persistance.swift in Sources */,
+				5F25169027E4D2FB00D9796B /* SettingsModels.swift in Sources */,
+				5F25168A27E4CDAE00D9796B /* SettingsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5F25165A27E4AEDD00D9796B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F25165B27E4AEDD00D9796B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5F25165F27E4AEE000D9796B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +387,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LYU7FAB9JV;
+				DEVELOPMENT_TEAM = BAJCWWQ6Q6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoodooTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,12 +414,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LYU7FAB9JV;
+				DEVELOPMENT_TEAM = BAJCWWQ6Q6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoodooTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +456,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F25167D27E4BE5C00D9796B /* XCRemoteSwiftPackageReference "Web3.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Boilertalk/Web3.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F25167E27E4BE5C00D9796B /* Web3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F25167D27E4BE5C00D9796B /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3;
+		};
+		5F25168027E4BE5C00D9796B /* Web3ContractABI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F25167D27E4BE5C00D9796B /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3ContractABI;
+		};
+		5F25168227E4BE5C00D9796B /* Web3PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F25167D27E4BE5C00D9796B /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5F25164927E4AEDD00D9796B /* Project object */;
 }
